@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+}
+
+#splash-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #1572ba;
+}
+
+#splash-page svg {
+  width: 1600px;
+}
+
+#gameboard {
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  background-color: #b7aeab;
+}
+
+.crater-png {
+  display: none;
+  max-width: 250px;
+  position: absolute;
+}
+
+.error {
+  width: 60px;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#play-button:hover rect,
+#play-again:hover rect {
+  fill: #fff !important;
+}
+
+#play-button:hover path,
+#play-again:hover path {
+  fill: #f05a28 !important;
+}
+
+
+
+#success {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  pointer-events: none;
+}
+
+#success svg {
+  width: 800px;
+  pointer-events: auto;
+
+}
+
+#instructions {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  pointer-events: none;
+}
+
+#instructions svg {
+  width: 500px;
+  margin-right: 60px;
+}
+
+#tido {
+  animation: 3s infinite alternate rotate;
+  animation-timing-function: ease-in-out;
+}
+
+#bone {
+  animation: 3s infinite alternate reverse-rotate;
+  transform-origin: center center;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(0.01turn);
+  }
+}
+
+@keyframes reverse-rotate {
+  from {
+    transform: rotate(0.01turn);
+  }
+
+  to {
+    transform: rotate(0);
+  }
+}
