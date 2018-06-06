@@ -58,7 +58,6 @@ $(document).ready(function(){
     }
   }
 
-
   // actions
   playButton.click(function(){
     splashPage.hide();
@@ -93,9 +92,6 @@ $(document).ready(function(){
   gridArray[GRID_SIZE - 1][GRID_SIZE - 1] = true;
   gridArray[0][GRID_SIZE - 1] = true;
 
-  // temp for testing
-  console.log(boneIndex);
-
   for(i = 0; i < MAX_CRATERS; i++){
     let colPosition = Math.floor(getRandom(0, GRID_SIZE));
     let rowPosition = Math.floor(getRandom(0, GRID_SIZE));
@@ -104,7 +100,6 @@ $(document).ready(function(){
       colPosition = Math.floor(getRandom(0, GRID_SIZE));
       rowPosition = Math.floor(getRandom(0, GRID_SIZE));
     }
-
 
     // make a copy of the crater image and put into array
     let newCrater = craterTemplate.clone();
@@ -128,14 +123,8 @@ $(document).ready(function(){
       left: newLeft,
     })
 
-
     // on click check for win
     newCrater.click(craterClick);
   }
-
-
-
-
-
 
 });
