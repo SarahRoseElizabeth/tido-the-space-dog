@@ -3,7 +3,7 @@ Tido the Space Dog
 
 The Concept
 
-This children's mini game is designed to be a promotional piece for Netflix's new up and coming children's show/movie "Tide the Space Dog"! 
+This children's mini game is designed to be a promotional piece for Netflix's new up and coming children's show/movie "Tido the Space Dog"! 
 
 
 The Code (main.js)
