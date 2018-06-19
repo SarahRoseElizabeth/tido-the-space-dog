@@ -32,3 +32,22 @@ Line 31 to 60
 Example of HTML interaction:
 
 Line 29 to 79 (onClick)
+
+
+Extra requirement(s):
+
+JS Random:
+
+Line 5 to 7
+
+JS Math:
+
+Line 20, 77, 100, 101, 106, 107
+
+JS Comparisons:
+
+Line 31
+
+JS Operators:
+
+Line 57 - 58,92 - 96, 123 - 127
